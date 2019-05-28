@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\CartAddDiscountForProduct\\CartAddDiscountForProduct",
         "label": {
-            "de-DE": "Fügt einen Rabatt für Produkte hinzu, dessen Name 'Awesome' beinhaltet",
-            "en-GB": "Adds a discount for products whose name contains 'Awesome'"
+            "de-DE": "Label für das Plugin CartAddDiscountForProduct",
+            "en-GB": "Label for the plugin CartAddDiscountForProduct"
         },
         "description": {
-            "de-DE": "Fügt einen Rabatt für Produkte hinzu, dessen Name 'Awesome' beinhaltet",
-            "en-GB": "Adds a discount for products whose name contains 'Awesome'"
+            "de-DE": "Beschreibung für das Plugin CartAddDiscountForProduct",
+            "en-GB": "Description for the plugin CartAddDiscountForProduct"
         }
     },
     "autoload": {
