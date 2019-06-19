@@ -6,7 +6,10 @@
 
     <services>
         <service id="Swag\CartAddDiscountForProduct\Core\Checkout\AwesomeProductsCollector">
-            <tag name="shopware.cart.collector" priority="-100"/>
+            <argument type="service" id="Shopware\Core\Checkout\Cart\Price\PercentagePriceCalculator"/>
+
+            <!-- after product cart processor -->
+            <tag name="shopware.cart.processor" priority="4400"/>
         </service>
     </services>
 </container>
