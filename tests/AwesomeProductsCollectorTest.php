@@ -75,7 +75,7 @@ class AwesomeProductsCollectorTest extends TestCase
 
         static::assertCount(1, $result);
         static::assertSame('awesome_discount', $result->first()->getType());
-        static::assertSame(-1, $result->first()->getPrice()->getUnitPrice());
+        static::assertSame(-1.0, $result->first()->getPrice()->getUnitPrice());
     }
 
     private function getProcessor(): AwesomeProductsCollector
